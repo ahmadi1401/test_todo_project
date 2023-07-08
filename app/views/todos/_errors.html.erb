@@ -1,0 +1,23 @@
+<% if @todo.errors.any? %>
+  <div class="container" >
+    <div class="row">
+      <ul>
+        <% @todo.errors.full_messages.each do |message| %>
+          <li>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <%=  message  %>
+            </div>
+          </li>
+        <% end %>
+        <button type="button" class="btn-close"  data-bs-dismiss="alert" aria-label="Close"></button>
+      </ul>
+    </div>
+  </div>
+<% end %>
+
+
+
+
+
+
+

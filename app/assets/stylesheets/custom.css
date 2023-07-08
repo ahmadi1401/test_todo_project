@@ -1,0 +1,40 @@
+
+body{
+  padding: 0px !important;
+  margin: 0px !important;
+  overflow-x: hidden !important;
+}
+#head {
+    float: left;
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+  }
+  .set-margin{
+    margin-top: 50px !important;
+  }
+  #font-size-card{
+    font-size: 1.5rem !important;
+    font-weight: bolder !important;
+  }
+  .add-class-text-decoration{
+    color: #a59e9e !important;
+    text-decoration: line-through !important;
+  }
+  .text-normaly{
+    color: #212529;
+    text-decoration: none;
+  }
+img{
+  z-index: 0;
+  height: 450px;
+}
+.jumbotron{
+  z-index: 100 !important;
+  height: 450px;
+}
+.margin-button{
+  margin-top: 150px !important;
+}
